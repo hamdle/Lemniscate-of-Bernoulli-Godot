@@ -6,14 +6,11 @@
 
 [node name="KinematicBody2D" parent="." index="0" instance=ExtResource( 1 )]
 
-position = Vector2( 541.821, 151.505 )
-
-[node name="KinematicBody2D2" parent="." index="1" instance=ExtResource( 1 )]
-
-position = Vector2( 569.839, 436.182 )
-scale = Vector2( 1, 1 )
+position = Vector2( 507.821, 278.231 )
 plot_type = 1
-speed = 0.1
-plot_scale = Vector2( 200, 100 )
+timer_speed = 0.02
+plot_scale = Vector2( 12000, 10000 )
+to = 6.3
+step = 0.015
 
 

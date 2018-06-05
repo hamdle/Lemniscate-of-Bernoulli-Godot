@@ -15,12 +15,14 @@ __meta__ = {
 "_edit_group_": true
 }
 plot_type = 0
-speed = 0.25
+timer_speed = 0.25
 plot_scale = Vector2( 100, 100 )
+from = 0.0
+to = 1.0
+step = 0.1
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
-visible = false
 texture = ExtResource( 2 )
 _sections_unfolded = [ "Visibility" ]
 
